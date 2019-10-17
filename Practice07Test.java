@@ -102,7 +102,7 @@ public class Practice07Test {
 				}
 			}
 		} catch (Exception e) {
-			// e.printStackTrace();  // Uncomment this line if you see errors in timing test.
+			e.printStackTrace();  // Uncomment this line if you see errors in timing test.
 			return Long.MAX_VALUE;
 		}
 		return System.currentTimeMillis() - start;
